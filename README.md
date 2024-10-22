@@ -31,3 +31,18 @@
 
 ``` npm install knex```
 ``` npm install sqlite3```
+
+### Migrations  - keep history of database evolution
+
+#### criando a primeira migration
+
+``` npx knex migrate:make table_name```
+
+
+#### fix knex need for typescript handling
+
+```    "knex": "node --import tsx ./node_modules/.bin/knex"```
+
+#### Running migration with knex package.json alias
+
+```npm run knex -- migrate:make create-documents```
