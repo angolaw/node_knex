@@ -22,4 +22,12 @@
 ```
 
 ### Linting script
-```    "lint": "eslint src -ext .ts" ```
+```    "lint": "eslint src -ext .ts --fix" ```
+
+
+## Banco de dados
+
+### Knex - query builder
+
+``` npm install knex```
+``` npm install sqlite3```
